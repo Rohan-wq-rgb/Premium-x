@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium X | Luxury Writing Instruments</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-logo">
+            <img src="image/logo.png" alt="Premium X Logo" class="preloader-img">
+        </div>
+        <div class="preloader-text">PREMIUM X</div>
+        <div class="preloader-spinner">
+            <div class="spinner-dot"></div>
+            <div class="spinner-dot"></div>
+            <div class="spinner-dot"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="image/logo.png" alt="Premium X" class="nav-logo-img">
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#collection" class="nav-link">Collection</a>
+                <a href="#craftsmanship" class="nav-link">Craftsmanship</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <div class="nav-close" id="nav-close">&#9776;</div>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">&#9776;</div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+        <div class="hero-container">
+            <div class="hero-content animate-on-scroll">
+                <span class="section-subtitle" style="text-align: left; margin-bottom: 1.5rem; display: block;">Luxury Writing Instruments</span>
+                <h1 class="hero-title">ELEVATE YOUR WRITE</h1>
+                <p class="hero-subtitle">The artistry of premium writing instruments, crafted for those who demand excellence</p>
+                <div class="hero-buttons">
+                    <a href="#collection" class="btn btn-primary">Explore Collection</a>
+                    <a href="#about" class="btn btn-secondary">Discover More</a>
+                </div>
+            </div>
+            <div class="hero-model animate-on-scroll">
+                <div class="model-viewer-container">
+                    <img src="image/pen6.png" alt="Premium X Pen Model" class="pen-model-img" id="pen-model">
+                    <div class="model-glow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-text">Scroll to explore</div>
+            <div class="scroll-icon"><span></span></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section animate-on-scroll" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Story</span>
+                <h2 class="section-title">The Art of Distinction</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text animate-on-scroll">
+                    <p>Premium X was founded on a singular vision: to create writing instruments that transcend mere function to become objects of desire. Each pen is meticulously crafted by master artisans using time-honored techniques and the finest materials sourced from around the world.</p>
+                    <p>From rare woods and exotic leathers to precious metals and ethically sourced diamonds, every Premium X creation represents an unwavering commitment to excellence and timeless elegance.</p>
+                    <div class="signature">
+                        <img src="image/logo.png" alt="Premium X Signature" class="signature-img">
+                        <span class="signature-text">Founder & CEO</span>
+                    </div>
+                </div>
+                <div class="about-image animate-on-scroll">
+                    <div class="image-frame">
+                        <img src="image/pen7.png" alt="Premium X Pen" class="about-pen-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section class="collection section" id="collection">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-subtitle">The Collection</span>
+                <h2 class="section-title">Masterpieces in Motion</h2>
+            </div>
+            <div class="collection-grid">
+                <div class="collection-item animate-on-scroll" data-tilt>
+                    <div class="item-image">
+                        <img src="image/pen1.png" alt="Premier Collection" class="collection-img">
+                    </div>
+                    <div class="item-content">
+                        <h3>Premier Collection</h3>
+                        <p>Estate in black resin with 18K gold accents.</p>
+                        <div class="item-price">$1,250</div>
+                        <button class="btn btn-view">View Details</button>
+                    </div>
+                </div>
+                <div class="collection-item animate-on-scroll" data-tilt>
+                    <div class="item-image">
+                        <img src="image/pen2.png" alt="Luxe Collection" class="collection-img">
+                    </div>
+                    <div class="item-content">
+                        <h3>Luxe Collection</h3>
+                        <p>Precious metal construction with diamond detailing.</p>
+                        <div class="item-price">$2,850</div>
+                        <button class="btn btn-view">View Details</button>
+                    </div>
+                </div>
+                <div class="collection-item animate-on-scroll" data-tilt>
+                    <div class="item-image">
+                        <img src="image/pen3.png" alt="Heritage Collection" class="collection-img">
+                    </div>
+                    <div class="item-content">
+                        <h3>Heritage Collection</h3>
+                        <p>Handcrafted from rare African blackwood.</p>
+                        <div class="item-price">$1,875</div>
+                        <button class="btn btn-view">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Craftsmanship Section -->
+    <section class="craftsmanship section animate-on-scroll" id="craftsmanship">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-subtitle">Craftsmanship</span>
+                <h2 class="section-title">The Making of Perfection</h2>
+            </div>
+            <div class="craftsmanship-process">
+                <div class="process-steps">
+                    <div class="step animate-on-scroll" data-step="1">
+                        <div class="step-number">01</div>
+                        <div class="step-content">
+                            <h3>Material Selection</h3>
+                            <p>We source only the finest materials from renowned suppliers worldwide.</p>
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll" data-step="2">
+                        <div class="step-number">02</div>
+                        <div class="step-content">
+                            <h3>Hand Crafting</h3>
+                            <p>Master artisans shape each piece with centuries-old techniques.</p>
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll" data-step="3">
+                        <div class="step-number">03</div>
+                        <div class="step-content">
+                            <h3>Quality Control</h3>
+                            <p>Rigorous inspection ensures perfection in every detail.</p>
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll" data-step="4">
+                        <div class="step-number">04</div>
+                        <div class="step-content">
+                            <h3>Final Polish</h3>
+                            <p>Each pen receives a meticulous hand-polish finish.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="process-image animate-on-scroll">
+                    <div class="image-wrapper">
+                        <img src="image/pen4.png" alt="Craftsmanship Process" class="craftsmanship-img">
+                        <div class="quality-badge">100% Handcrafted</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section animate-on-scroll" id="testimonials">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-subtitle">Testimonials</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            <div class="testimonial-slider" id="testimonial-slider">
+                <div class="testimonial active animate-on-scroll">
+                    <div class="testimonial-content">
+                        <p>The Premier Collection pen from Premium X has transformed my daily writing experience. The weight, balance, and craftsmanship are simply unmatched.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-name">James Morrison</div>
+                        <div class="author-title">CEO, Meridian Group</div>
+                    </div>
+                </div>
+                <div class="testimonial animate-on-scroll">
+                    <div class="testimonial-content">
+                        <p>I've been collecting fine writing instruments for decades, and Premium X stands apart in both design and quality. A true masterpiece.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-name">Margaret Ellison</div>
+                        <div class="author-title">Art Collector</div>
+                    </div>
+                </div>
+                <div class="testimonial animate-on-scroll">
+                    <div class="testimonial-content">
+                        <p>The attention to detail is extraordinary. My Luxe Collection pen is not just a writing tool but a work of art.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-name">Robert Chen</div>
+                        <div class="author-title">Architect</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="control-btn active" data-control="1"></button>
+                <button class="control-btn" data-control="2"></button>
+                <button class="control-btn" data-control="3"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section animate-on-scroll" id="contact">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-subtitle">Contact</span>
+                <h2 class="section-title">Experience Premium X</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll">
+                    <p>Visit our flagship boutique or contact us to schedule a private consultation.</p>
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Address:</span>
+                            <span class="detail-text">5th Avenue, New York, NY 10022</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Phone:</span>
+                            <span class="detail-text">+1 (212) 555-0123</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email:</span>
+                            <span class="detail-text">rohanmondalasab002@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="logo-footer">
+                        <img src="image/logo.png" alt="Premium X Logo" class="footer-logo">
+                    </div>
+                </div>
+                <div class="contact-form-container animate-on-scroll">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <input type="text" name="name" placeholder="Full Name" required>
+                            <input type="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-row">
+                            <input type="tel" name="phone" placeholder="Phone Number">
+                            <input type="text" name="subject" placeholder="Subject">
+                        </div>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="image/logo.png" alt="Premium X" class="footer-logo-img">
+                    <span>Premium X</span>
+                </div>
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#collection">Collection</a>
+                    <a href="#craftsmanship">Craftsmanship</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2024 Premium X. All rights reserved.</p>
+                    <p>Crafted in Italy. Designed in New York.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
