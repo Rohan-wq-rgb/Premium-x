@@ -1051,3 +1051,8 @@ textarea:focus {
         }
     }
 }
+
+.footer-logo-img{
+  width: 100px;
+  margin-bottom: 1rem;
+}
